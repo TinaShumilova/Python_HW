@@ -1,4 +1,11 @@
 def dictunary(a, b):
-    dictun = {}
-    
+    dictun = {
+        f'{a}': id(a),
+        f'{b}': id(b)
+    }
+
     return dictun
+a = 2
+b = 3
+temp = dictunary(a, b)
+print(temp)
