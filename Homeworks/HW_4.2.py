@@ -1,4 +1,4 @@
-def dictunary(a, b):
+def dictunary(a=2, b=3):
     dictun = {
         f'{a}': id(a),
         f'{b}': id(b)
