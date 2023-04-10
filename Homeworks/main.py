@@ -1,11 +1,9 @@
-from HW_6 import mystery as m
-from HW_6 import value_date as v
+import os
+from HW_7 import add_files as add
+from HW_7 import rename as ren
 
-# m.keep_mystery()
+TEMP = ['testqwerty.txt', 'dataqwerty.txt', 'exampleqwerty.pdf']
 
-# s = "Мчится печка впереди, тащит избы позади."
-# ans = ['Поезд', 'поезд', 'Паровоз' 'паровоз']
-# chan = 2
-# m.guess_mystery(s, ans, chan)
+files_list = add.add_dir_with_files(TEMP)
 
-print(v.correct_date("29.02.2012"))
+ren.rename_file_name(files_list, "_TEST_", 3, "txt", "md", [1, 4])
