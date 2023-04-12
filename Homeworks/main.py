@@ -1,8 +1,5 @@
-import os
-from HW_8 import read_dir as r
+from HW_9 import functions as f
 
-print("-------------")
-dir_list = os.listdir()
-temp_dict = r.look_into_dir(dir_list)
-r.write_into_json(temp_dict, "test.json")
-print("-------------")
+
+f.write_csv("number_tab.csv")
+f.quadratic_equation()
