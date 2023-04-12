@@ -1,0 +1,134 @@
+{
+  ".git": {
+    "Is a file": 4096
+  },
+  ".gitignore": {
+    "Is a file": 1928
+  },
+  "Homeworks": {
+    "Is a directory": 4096
+  },
+  "HW_1": {
+    "Is a directory": 0
+  },
+  "HM_1_1.py": {
+    "Is a file": 697
+  },
+  "HW_1_2.py": {
+    "Is a file": 870
+  },
+  "HW_1_3.py": {
+    "Is a file": 582
+  },
+  "__init__.py": {
+    "Is a file": 0
+  },
+  "HW_2": {
+    "Is a directory": 0
+  },
+  "HW_2_1.py": {
+    "Is a file": 760
+  },
+  "HW_2_2.py": {
+    "Is a file": 2155
+  },
+  "HW_3": {
+    "Is a directory": 0
+  },
+  "HW_3_1.py": {
+    "Is a file": 218
+  },
+  "HW_3_2.py": {
+    "Is a file": 2059
+  },
+  "HW_3_3.py": {
+    "Is a file": 457
+  },
+  "HW_4": {
+    "Is a directory": 0
+  },
+  "HW_4.2.py": {
+    "Is a file": 166
+  },
+  "HW_4_1.py": {
+    "Is a file": 309
+  },
+  "HW_5": {
+    "Is a directory": 0
+  },
+  "HW_5_1.py": {
+    "Is a file": 195
+  },
+  "HW_5_2.py": {
+    "Is a file": 249
+  },
+  "HW_5_3.py": {
+    "Is a file": 167
+  },
+  "HW_6": {
+    "Is a directory": 4096
+  },
+  "mystery.py": {
+    "Is a file": 935
+  },
+  "value_date.py": {
+    "Is a file": 1170
+  },
+  "__pycache__": {
+    "Is a directory": 0
+  },
+  "mystery.cpython-311.pyc": {
+    "Is a file": 1671
+  },
+  "test.json": {
+    "Is a file": 1441
+  },
+  "value_date.cpython-311.pyc": {
+    "Is a file": 1997
+  },
+  "__init__.cpython-311.pyc": {
+    "Is a file": 192
+  },
+  "HW_7": {
+    "Is a directory": 4096
+  },
+  "add_files.py": {
+    "Is a file": 459
+  },
+  "files": {
+    "Is a directory": 4096
+  },
+  "dat_TEST_001.md": {
+    "Is a file": 0
+  },
+  "exampleqwerty.pdf": {
+    "Is a file": 0
+  },
+  "tes_TEST_002.md": {
+    "Is a file": 0
+  },
+  "rename.py": {
+    "Is a file": 992
+  },
+  "add_files.cpython-311.pyc": {
+    "Is a file": 1103
+  },
+  "rename.cpython-311.pyc": {
+    "Is a file": 1743
+  },
+  "HW_8": {
+    "Is a directory": 0
+  },
+  "read_dir.py": {
+    "Is a file": 1334
+  },
+  "read_dir.cpython-311.pyc": {
+    "Is a file": 2724
+  },
+  "main.py": {
+    "Is a file": 198
+  },
+  "README.md": {
+    "Is a file": 8176
+  }
+}

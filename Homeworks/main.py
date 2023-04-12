@@ -1,9 +1,8 @@
 import os
-from HW_7 import add_files as add
-from HW_7 import rename as ren
+from HW_8 import read_dir as r
 
-TEMP = ['testqwerty.txt', 'dataqwerty.txt', 'exampleqwerty.pdf']
-
-files_list = add.add_dir_with_files(TEMP)
-
-ren.rename_file_name(files_list, "_TEST_", 3, "txt", "md", [1, 4])
+print("-------------")
+dir_list = os.listdir()
+temp_dict = r.look_into_dir(dir_list)
+r.write_into_json(temp_dict, "test.json")
+print("-------------")
