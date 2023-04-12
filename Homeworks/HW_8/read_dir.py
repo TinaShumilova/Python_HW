@@ -26,7 +26,6 @@ def look_into_dir(list_of_obj: list) -> dict:
             result = {"Is a file": size}
             temp_dict[obj] = result
 
-
         print(temp_dict)
     return temp_dict
 
