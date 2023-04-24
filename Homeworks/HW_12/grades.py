@@ -1,5 +1,4 @@
 import csv
-from pathlib import Path
 
 class Grades:
     def __init__(self, min_value: int=None, max_value: int=None):
@@ -52,7 +51,7 @@ class Subjects:
     
     def __get__(self, instance, owner):
         return getattr(instance, self.param_name)
-
+    
     def __set__(self, instance, value):
         self.validate(value)
         setattr(instance, self.param_name, value)
@@ -85,25 +84,14 @@ class Student:
         self.exam = exam
         self.grade = grade
 
-    def write_csv(self, file_name: str) -> None:
-        file = Path(f"{file_name}.csv")
-        with open(file, 'w', newline='', encoding='utf-8') as f:
-            csv_write= csv.writer(f, dialect='excel', delimiter=' ', quoting=csv.QUOTE_MINIMAL)
-            
-            lines = []
-                
-            grade1 = self.grade
-            grade2 = self.exam
-            lines.append(f"{grade1}|{grade2}")
-                
-            if file.is_file():
-                csv_write.writerow(['Subject', f'{self.last_name} {self.first_name} {self.father_name}'])
-            else:
-                csv_write.writerow([self.subject, lines])
-
-
-
 
 if __name__ == '__main__':
     std_one = Student('Tina', 'Shumilova', 'Vadimovna', 'Math', 3, 100)
-    std_one.write_csv("grades")
+    std_two = Student('Tqwe', 'Swqwed', 'Vawewa', 'English', 4, 99)
+
+
+
+    
+
+
+
